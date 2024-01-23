@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 944px;
+    width: 680px;
+    justify-content: space-evenly;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    width: 50px;
+}
+
+.resultado{
+    width: 400px;
+    height: 944px;
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 0px 4px 24px #797979;
+}
+
+.text-res{
+    width: 336px;
+    text-align: center;
+}
+
+.t-res {
+    font-size: 24px;
+    color: #343A40;
+}
+
+.p-res {
+    font-size: 16px;
+    color: #495057;
+}
+
+.text-alert{
+    display: flex;
+    flex-direction: row;
+}
+
+.instrucciones {
+    font-size: 12px;
+    color: #495057;
+    margin-left: 8px;
+}
+
+.answer {
+    font-size: 24px;
+    color: #495057;
+}
+
+svg.text-alert{
+    color: #67808E;
+    margin-right: 8px;
+}
+
+
+textarea{
+    font-size: 32px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 60%;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+    font-size: 32px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+button {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.area-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    color: #fff;
+    border: none;
+}
+
+.btn-encriptar:hover {
+    background-color: #052051;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-decriptar:hover {
+    background-color: #EFF1FA;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.btn-decriptar {
+    background-color: #fff;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
